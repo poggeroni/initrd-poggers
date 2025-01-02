@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+build() {
+    add_runscript
+}
+
+help() {
+    cat <<HELPEOF
+POGGERS initrd hook because why not
+HELPEOF
+}
+
+# vim: set ft=sh ts=4 sw=4 et:
